@@ -1,36 +1,231 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Scripti
 
-## Getting Started
+AI-powered C# Assistant for practicals, debugging, viva preparation, and .NET learning.
 
-First, run the development server:
+---
+
+## Overview
+
+Scripti is a modern AI-powered C# assistant built using Next.js, Groq AI, and a custom practical-program knowledge base.
+
+It helps students and developers:
+
+* Learn C# concepts
+* Generate practical programs
+* Debug errors
+* Prepare for vivas
+* Understand .NET concepts
+* Practice OOP and DSA programs
+* Get AI-generated explanations instantly
+
+The project combines:
+
+* AI chat interface
+* Markdown rendering
+* Syntax-highlighted code blocks
+* Persistent chat history
+* Program retrieval system
+* Modern ChatGPT-style UI
+
+---
+
+## Features
+
+### AI-Powered Chat
+
+* Groq LLM integration
+* Real-time AI responses
+* C#-focused assistant behavior
+
+### Smart C# Knowledge Base
+
+* Supports 300+ practical programs
+* Context-aware program retrieval
+* Dynamic prompt injection
+
+### Modern UI
+
+* Clean minimal interface
+* Responsive layout
+* ChatGPT-inspired design
+* Smooth user experience
+
+### Developer Experience
+
+* Markdown support
+* Syntax-highlighted code blocks
+* Copy-friendly responses
+* Persistent local chat history
+
+### Educational Support
+
+* Practical programs
+* Viva preparation
+* OOP explanations
+* LINQ and ADO.NET help
+* Debugging assistance
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* Next.js 15
+* React
+* TypeScript
+* TailwindCSS
+
+### AI
+
+* Groq API
+* Llama 3.3 70B Versatile
+
+### Libraries
+
+* react-markdown
+* react-syntax-highlighter
+* lucide-react
+
+---
+
+## Screenshots
+
+Add screenshots here after deployment.
+
+Example:
+
+```md
+![Home](./screenshots/home.png)
+```
+
+---
+
+## Folder Structure
+
+```text
+scripti/
+│
+├── app/
+│   ├── api/
+│   │   └── chat/
+│   │       └── route.ts
+│   │
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── ChatInput.tsx
+│   ├── ChatLayout.tsx
+│   ├── ChatWindow.tsx
+│   ├── Message.tsx
+│   └── Sidebar.tsx
+│
+├── data/
+│   └── programs.json
+│
+├── public/
+│
+├── .env.local
+├── package.json
+└── README.md
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/scripti.git
+```
+
+Go to project directory:
+
+```bash
+cd scripti
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create environment file:
+
+```env
+GROQ_API_KEY=YOUR_API_KEY
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+```env
+GROQ_API_KEY=YOUR_GROQ_API_KEY
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
 
-## Deploy on Vercel
+Deploy easily using:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Vercel
+* Netlify
+* Railway
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Recommended:
+
+* Vercel
+
+---
+
+## Future Improvements
+
+* Streaming AI responses
+* Vector database RAG
+* PDF upload support
+* Semantic search
+* Multi-chat support
+* Authentication
+* Voice input
+* Dark mode
+* AI code execution sandbox
+
+---
+
+## Author
+
+Built by Apoorv Khobragade
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Acknowledgements
+
+* Groq
+* Next.js
+* TailwindCSS
+* React Markdown
+* Open Source Community
